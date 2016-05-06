@@ -40,7 +40,7 @@ future: true
 highlight:
   enable: true
   line_number: true
-  auto_detect: true
+  auto_detect: false
   tab_replace:
 
 # Category & Tag
@@ -71,7 +71,7 @@ since: 2015
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: http://github.com/danzhuibing/danzhuibing.github.io.git
+  repository: git@github.com:danzhuibing/danzhuibing.github.io.git
   branch: master
   #repository: git@gitcafe.com:danzhuibing/danzhuibing.git
   #branch: gitcafe-pages
